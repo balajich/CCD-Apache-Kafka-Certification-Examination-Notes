@@ -9,4 +9,5 @@
 # Confluent control center
 - http://localhost:9021/
 # Links
--Confluent docker - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html 
+-Confluent docker - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html
+ 
