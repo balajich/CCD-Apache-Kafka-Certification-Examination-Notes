@@ -10,4 +10,4 @@
 - http://localhost:9021/
 # Links
 -Confluent docker - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html
- 
+- Kafka URL https://github.com/confluentinc/cp-all-in-one
