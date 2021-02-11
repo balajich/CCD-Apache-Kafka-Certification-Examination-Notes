@@ -12,7 +12,7 @@ Vagrant.configure(2) do |config|
     kserver.vm.provision "shell", path: "startup-kserver.sh"
     kserver.vm.provider "virtualbox" do |vb|
       vb.name = "kserver"
-      vb.memory = 4024
+      vb.memory = 6072
       vb.cpus = 1
     end
   end

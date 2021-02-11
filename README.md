@@ -1,4 +1,7 @@
+#Confluent Certified Developer for Apache Kafka Certification Examination -Notes
+Notes for the exam **Confluent Certified Developer for Apache Kafka Certification Examination**
 # kafka-examples
+
 # Setup environment
 - clone the repo
 - ```vagrant up``` Brings the base virtual machine
@@ -9,5 +12,5 @@
 # Confluent control center
 - http://localhost:9021/
 # Links
--Confluent docker - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html
+- Confluent docker - https://docs.confluent.io/platform/current/quickstart/cos-docker-quickstart.html
 - Kafka URL https://github.com/confluentinc/cp-all-in-one
