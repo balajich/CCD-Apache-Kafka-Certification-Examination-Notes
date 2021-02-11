@@ -96,3 +96,7 @@ yum install -y dos2unix
 # install jq
 echo "[TASK 17] Install jq"
 yum install -y jq
+
+# install nc
+echo "[TASK 18] Install nmap"
+yum install -y nmap
