@@ -29,3 +29,7 @@ hs_err_pid*
 /java-client/.idea/
 /java-client/producer/producer.iml
 /java-client/kafka-examples.iml
+/client-java/producer/target/
+/client-java/kafka-examples.iml
+/client-java/producer/producer.iml
+/client-java/.idea/
