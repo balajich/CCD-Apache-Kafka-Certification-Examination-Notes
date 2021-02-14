@@ -26,3 +26,6 @@ hs_err_pid*
 /kafkasamples.iml
 /.idea/
 /.vagrant/
+/java-client/.idea/
+/java-client/producer/producer.iml
+/java-client/kafka-examples.iml
