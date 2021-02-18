@@ -33,7 +33,7 @@ docker-compose exec broker-1 kafka-topics \
 
 # Read messages from student-topic
 docker-compose exec broker-1 kafka-console-consumer \
-  --topic student-topic \
+  --topic hello-world-topic \
   --bootstrap-server broker-1:19092
 
 # Read messages from student-topic from-beginning
@@ -57,3 +57,8 @@ docker-compose exec broker-1 kafka-consumer-groups \
   --describe \
   --group console-consumer-51714 \
   --bootstrap-server broker-1:19092
+
+# write messages to student-topic, press ctrl+c to end
+docker-compose exec broker-1 kafka-console-producer \
+  --topic "student-topic" \
+  --bootstrap-server "broker-1:19092"

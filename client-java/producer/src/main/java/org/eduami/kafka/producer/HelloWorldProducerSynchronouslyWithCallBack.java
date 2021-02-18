@@ -8,7 +8,7 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import java.util.Properties;
 
 
-public class HelloWorldProducerSynchronouslyRecordMetaData {
+public class HelloWorldProducerSynchronouslyWithCallBack {
     public static void main(String[] args) {
         Properties kafkaProps = new Properties();
         kafkaProps.put("bootstrap.servers", "broker-1:19092,broker-2:29092,broker-3:39092");

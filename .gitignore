@@ -33,3 +33,7 @@ hs_err_pid*
 /client-java/kafka-examples.iml
 /client-java/producer/producer.iml
 /client-java/.idea/
+/client-python/.idea/
+/client-python/kpc-env/
+/confluent-kafka-all-in-one/connector_users_cos.config
+/confluent-kafka-all-in-one/connector_pageviews_cos.config

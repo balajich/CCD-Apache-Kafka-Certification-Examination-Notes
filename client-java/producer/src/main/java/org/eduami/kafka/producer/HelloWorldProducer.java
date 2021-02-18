@@ -6,7 +6,7 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
 
-
+//Fire and forgot approach
 public class HelloWorldProducer {
     public static void main(String[] args) {
         Properties kafkaProps = new Properties();
@@ -17,7 +17,7 @@ public class HelloWorldProducer {
         ProducerRecord<String, String> record = new ProducerRecord<>("hello-world-topic", null, "Hello World");
         KafkaProducer<String, String> producer = new KafkaProducer<>(kafkaProps);
         try {
-            producer.send(record); //send record
+            producer.send(record).get(); //send record
             producer.flush(); //flush the accumulated records
         } catch (Exception e) {
             e.printStackTrace();
